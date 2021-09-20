@@ -1,0 +1,79 @@
+
+       body{
+           background-color: rgba(233,226,210,255);
+           background-repeat:repeat-x;
+          background-image:  linear-gradient(rgba(246,245,240,255), rgba(233,226,210,255));
+       }
+
+        .header {
+            padding: 15px;
+            
+        }
+        .logo {
+            width: 10%;
+            height: 10%;
+            margin-top: 0.5%;
+            margin-left: 0.5%;
+        }
+        .header-right {
+            float: right;
+            text-align: right;
+        
+        }
+        .header a{
+            
+            padding: 5px;
+            text-decoration: none;
+            font-size: 18px; 
+            line-height: 25px;
+            border-radius: 4px; }
+        .header a:hover {
+            background-color: #ddd;
+            color: rgb(255, 255, 255);
+            background-image: linear-gradient(rgba(101,175,77,255), rgba(30,136,46,255));
+        }
+
+        .header a.active {
+            
+            color: white;
+            background-image: linear-gradient(rgba(101,175,77,255), rgba(30,136,46,255));
+        }
+        .sdt{
+            display: inline;
+        }
+        .nav{
+             
+            padding: 5px;
+            
+          
+            background-color: #ddd;
+            background-image: linear-gradient(rgba(101,175,77,255), rgba(30,136,46,255));
+            border-radius: 8px;}
+        .nav a{   
+               
+            padding: 10px;
+            padding-bottom: 11px;
+            padding-left: 25px;
+            padding-right: 25px;
+            text-decoration: none;
+            font-size: 20px; 
+            color: #ddd;
+            font-weight: bold;
+            text-align: center;
+            
+            
+            
+            
+        }
+        .nav a:hover {
+          background-color: #ddd;
+          
+             color: rgba(30,136,46,255);
+          
+        }
+
+               
+        
+     
+   
+       
